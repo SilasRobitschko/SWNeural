@@ -1,0 +1,85 @@
+InitParticles:
+  - lattice:
+      N: 40
+      particleProperties:
+        gamma: 1
+        m: 1
+        sigma: 1
+        species: 0
+  - lattice:
+      N: 40
+      particleProperties:
+        gamma: 1
+        m: 1
+        sigma: 1
+        species: 1
+Integrator:
+  MonteCarloGrandCanonical:
+    dx: 0.2
+    nSweepMin: 2
+Observables:
+  Onebody:
+    bins:
+      - 1
+      - 1
+      - 2000
+    keys:
+      - 1
+      - Fextz
+      - Fintz
+      - Eext
+  Scalar:
+    keys:
+      - E
+      - N
+Stages:
+  - steps: 100000
+  - steps: 1000000000
+System:
+  L:
+    - 15.872113784996547
+    - 15.872113784996547
+    - 20.0
+  T: 1.6495498778180826
+  interaction:
+    external:
+      WallSW:
+        A:
+          - 1.9982436997116382
+          - 0.5124376315044135
+          - -0.7680065945323652
+          - 0.12003101892735397
+        E1:
+          - 3.324860405970652
+          - -0.18064615454657382
+          - -0.24408723283834008
+          - -0.7643488664264331
+        E2:
+          - -0.7967162485412028
+          - 0.8101223424932849
+          - 2.73577241180229
+          - -1.1813684751249065
+        d: 2
+        phi:
+          - 5.527153956219338
+          - 3.0589921215503093
+          - 4.219303087310537
+          - 4.236811802449962
+        pos1:
+          - 4.92
+          - 14.57
+          - 5.21
+          - 8.5
+        pos2:
+          - 5.45
+          - 18.05
+          - 12.39
+          - 16.36
+        width: 2.16
+    internal:
+      LJ:
+        cutoff: 2.5
+        shift: false
+  mu: -2.9
+  mu0: -2.852892704050137
+  mu1: -2.852892704050137

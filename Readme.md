@@ -22,7 +22,10 @@ Working in a virtual environment is highly recommended and make sure to have all
 python3 -m venv .venv
 source .venv/bin/activate
 
-# Install dependencies
+# For Cuda support, consider running:
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+# Install other dependencies
 pip install -r requirements.txt
 ```
 To use a GPU with TensorFlow, please refer to the official installation guide at [https://www.tensorflow.org/install/pip](https://www.tensorflow.org/install/pip).
@@ -56,8 +59,13 @@ python3 train/learn.py
 ```
 **Note:** Training can be resource-intensive. For multi-process data loading, it may be necessary to increase the system's limit for open file descriptors (e.g., `ulimit -n 4096` on Linux/macOS). 
 
-The data generator logic can be found in `train/datagenerator.py`.
+The network architecture can be found in `train/model.py` whereas the logic to generate the training dataset is located in `train/dataset.py`.
+
 
 ### Further Information
 
-The reference data in `simdata/` was generated with Grand Canonical Monte Carlo simulations using the [MBD](https://gitlab.uni-bayreuth.de/bt306964/mbd) software package.
+The reference data in `simdata/cluster_03_12_24` was generated with Grand Canonical Monte Carlo simulations using the [MBD](https://gitlab.uni-bayreuth.de/bt306964/mbd) software package.
+
+The folder `train/mbd` and the script `train/runanalyzer.py` are used to process the reference data. 
+
+The corresponding utility functions are available in `train/utils.py` and `scripts/utils.py`.
