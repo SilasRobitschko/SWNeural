@@ -2,7 +2,7 @@ import torch
 import numpy as np
 #---- Custom Loss function ----- 
 # A low density causes a noisy c1-value 
-# Because of this reference data with low density gets a decreased factor for backpropagation
+# Because of this, reference data with low density gets a decreased factor for backpropagation
 def weight_for_loss(density, bins=2000):
     """Calculates weights for the loss function based on density."""
     factor = np.ones(bins)

@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 #import from the utility script
 #important function calc_rho which uses fix point iterations for the density profile
-#take a look at it in utils.py if you want to your own minimizations
+#take a look at it in utils.py if you want to implement your own calculations of the density profile
 from utils import ensure_no_tf32, calc_rho
 
 if __name__ == '__main__':

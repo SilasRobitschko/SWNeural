@@ -15,6 +15,9 @@ Methods beyond profile generation, such as functional integration to calculate t
 
 ### Setup
 
+The Python version used during development was Python 3.12.5. 
+For other Python versions, please refer to documentation. 
+
 Working in a virtual environment is highly recommended and make sure to have all the dependencies installed:
 
 ```bash
@@ -28,7 +31,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 # Install other dependencies
 pip install -r requirements.txt
 ```
-To use a GPU with TensorFlow, please refer to the official installation guide at [https://www.tensorflow.org/install/pip](https://www.tensorflow.org/install/pip).
+To use a GPU with Pytorch, please refer to the official installation guide at [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/).
 
 ### Instructions
 
