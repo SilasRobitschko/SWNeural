@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 #important function calc_rho which uses fix point iterations for the density profile
 #take a look at it in utils.py if you want to implement your own calculations of the density profile
 from utils import ensure_no_tf32, calc_rho
+from model import NetC1
 
 if __name__ == '__main__':
     # --- PARAMETERS: CHANGE IF YOU WANT TO ---
@@ -49,16 +50,17 @@ if __name__ == '__main__':
     xs, rho0alphabeta, rho1alphabeta = calc_rho(model=c1model, T=T, L=L, rho0_init=rho0init, rho1_init=rho1init, rho_mean=rhomean, device=device)
 
     # Now plot and save the results 
-    plt.figure(figsize=(4, 4), dpi=300)
+    plt.figure(figsize=(4, 3.5), dpi=300)
 
     # Plot the data with a shift
     shift = 2500
     plt.plot(xs, torch.roll(rho0alphabeta, shifts=shift), label=r"$\rho_0 \sigma^3$", linewidth=2)
-    plt.plot(xs, torch.roll(rho1alphabeta, shifts=shift), label=r"$\rho_1 \sigma^3$", linewidth=2)
-
+    plt.plot(xs, torch.roll(rho1alphabeta, shifts=shift), label=r"$\rho_1 \sigma^3$", linewidth=2, linestyle="dashed")
+    plt.ylim(0)
+    plt.xlim(0,50)
     plt.xlabel(r"$z / \sigma$", fontsize=13)
     plt.legend(fontsize=12, loc="best")
-    plt.title(r"Demixed-Vapor Phase Separation ($k_B T/\epsilon=0.93$)", fontsize=14)
+    plt.title(r"Demixed-Vapor Interface ($k_B T/\epsilon=0.93$)", fontsize=14)
     plt.savefig( results_dir / "Alpha_Beta_at_T_093.pdf", dpi=300, bbox_inches='tight')
     plt.show()
 
@@ -90,10 +92,11 @@ if __name__ == '__main__':
     shift = 2500
     plt.plot(xs, torch.roll(rho0betagamma, shifts=shift), label=r"$\rho_0 \sigma^3$", linewidth=2)
     plt.plot(xs, torch.roll(rho1betagamma, shifts=shift), label=r"$\rho_1 \sigma^3$", linewidth=2)
-
+    plt.ylim(0)
+    plt.xlim(0,50)
     plt.xlabel(r"$z / \sigma$", fontsize=13)
     plt.legend(fontsize=12, loc="best")
-    plt.title(r"Liquid-Liquid Phase Separation ($k_B T/\epsilon=0.93$)", fontsize=14)
+    plt.title(r"Liquid-Liquid Interface ($k_B T/\epsilon=0.93$)", fontsize=14)
     plt.savefig( results_dir / "Beta_Gamma_at_T_093_and_rho_067.pdf", dpi=300, bbox_inches='tight')
     plt.show()
     '''

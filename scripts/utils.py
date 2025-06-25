@@ -76,7 +76,7 @@ def c1_profiles(model, rho0, rho1, T, Lxy,windows=350, batch_size=4096, device=t
 
 # Function to calculate the density profiles from the c1 using Fixpoint Iterations
 def calc_rho(model, T, L,Lxy=None, rho0_init=None, rho1_init=None,Vext0=None, Vext1=None,
-    mu=None, mu_delta=0,rho_mean=None,rho_bulk=None, dx=0.01, alpha=0.075, tol=1e-5, max_iter=100000, print_every=2000,device=torch.device('cuda')):
+    mu=None, mu_delta=0,rho_mean=None,rho_bulk=None, dx=0.01, alpha=0.075, tol=1e-5, max_iter=100000, print_every=200,device=torch.device('cuda')):
     """
     Determines the equilibrium density profile by solving the Euler-Lagrange equation self-consistently with a mixed Picard iteration.
     Change one of the three constraints to achieve the desired results: 
@@ -108,7 +108,9 @@ def calc_rho(model, T, L,Lxy=None, rho0_init=None, rho1_init=None,Vext0=None, Ve
     if constraints_val != 1:
         raise ValueError("Specify exactly one of 'mu', 'rho_mean', or 'rho_bulk'.")
 
-    xs = torch.arange(dx / 2, L, dx, device=device, dtype=torch.float64)
+    print("Starting Density Minimization!")
+
+    xs = torch.arange(dx / 2, L, dx, dtype=torch.float64)
     num_bins = len(xs)
 
     if rho0_init is None:
@@ -120,7 +122,8 @@ def calc_rho(model, T, L,Lxy=None, rho0_init=None, rho1_init=None,Vext0=None, Ve
     if Vext1 is None:
         Vext1 = torch.full((num_bins,), 0, dtype=torch.float64)
     
-
+    rho0 = rho0_init
+    rho1 = rho1_init
     # Pre-calculate indices for the 'rho_bulk' constraint mode
     if rho_bulk is not None:
         i_center1 = int(L / 4 / dx)
@@ -156,14 +159,14 @@ def calc_rho(model, T, L,Lxy=None, rho0_init=None, rho1_init=None,Vext0=None, Ve
         
         elif rho_mean is not None:
             # rescale to math mean density 
-            current_mean_density = (torch.sum(rho0_new_unnorm) + torch.sum(rho1_new_unnorm)) * dx / L / 2
+            current_mean_density = (torch.sum(rho0_new_unnorm) + torch.sum(rho1_new_unnorm)) * dx / L 
             scaling_factor = rho_mean / current_mean_density 
             rho0_new = rho0_new_unnorm * scaling_factor
             rho1_new = rho1_new_unnorm * scaling_factor
         
         elif rho_bulk is not None:
             # rescale to match bulk density
-            current_bulk_density = (torch.mean(rho0_new_unnorm[bulk_indices]) + torch.mean(rho1_new_unnorm[bulk_indices])) / 2
+            current_bulk_density = (torch.mean(rho0_new_unnorm[bulk_indices]) + torch.mean(rho1_new_unnorm[bulk_indices])) 
             scaling_factor = rho_bulk / current_bulk_density 
             rho0_new = rho0_new_unnorm * scaling_factor
             rho1_new = rho1_new_unnorm * scaling_factor
