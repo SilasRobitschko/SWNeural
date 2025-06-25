@@ -1,9 +1,6 @@
 import torch
 from pathlib import Path
-import numpy as np
-import math
 import matplotlib.pyplot as plt
-
 #import from the utility script
 #important function calc_rho which uses fix point iterations for the density profile
 #take a look at it in utils.py if you want to implement your own calculations of the density profile
@@ -18,7 +15,6 @@ if __name__ == '__main__':
 
     #--- Setup --- 
     ensure_no_tf32()    
-    
     project_dir = Path(__file__).resolve().parent.parent
     run_dir = project_dir / "simdata" / "cluster_03_12_24" 
     model_dir = project_dir/ "models"
@@ -30,7 +26,7 @@ if __name__ == '__main__':
 
     #Don't change this dx unless you use different training data!
     dx = 0.01 # the discretization step of the profiles (profiles vary in z-direction constant in x/y direction) 
-
+    
     #--- Setup for the Alpha Beta Interfacial Profile --- 
 
     #initialize the setup
@@ -63,12 +59,11 @@ if __name__ == '__main__':
     plt.title(r"Demixed-Vapor Interface ($k_B T/\epsilon=0.93$)", fontsize=14)
     plt.savefig( results_dir / "Alpha_Beta_at_T_093.pdf", dpi=300, bbox_inches='tight')
     plt.show()
+    
 
-
-
+    ''' 
     # --- Setup for the Beta Gamma Interfacial Profile --- 
     # Remove comment to run this too! 
-    '''
     T=0.93
     L= 100 
     bins = int(L/dx)
@@ -82,7 +77,7 @@ if __name__ == '__main__':
     rho1init[5000:] = 0.58
     # calculate equilibrium density profile with the constraint of keeping the bulk density (around 25 sigma and 75 sigma) fixed
     # liquid-liquid phase transition arises (with majority 0 phase and majority 1 phase)
-    xs, rho0betagamma, rho1betagamma = calc_rho(model=c1model, T=T, L=L, rho0_init=rho0init, rho1_init=rho1init, rhobulk=rhobulk, device=device)    
+    xs, rho0betagamma, rho1betagamma = calc_rho(model=c1model, T=T, L=L, rho0_init=rho0init, rho1_init=rho1init, rho_bulk=rhobulk, device=device)    
     
     
     # Now plot and save the results 
@@ -100,11 +95,3 @@ if __name__ == '__main__':
     plt.savefig( results_dir / "Beta_Gamma_at_T_093_and_rho_067.pdf", dpi=300, bbox_inches='tight')
     plt.show()
     '''
-
-
-
-
-
-
-
-    
