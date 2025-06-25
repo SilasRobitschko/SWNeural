@@ -25,13 +25,14 @@ Working in a virtual environment is highly recommended and make sure to have all
 python3 -m venv .venv
 source .venv/bin/activate
 
-# For Cuda support, consider running:
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+# Install Pytorch with Cudasupport ((use --index-url to control the version))
+pip install torch torchvision torchaudio
 
 # Install other dependencies
 pip install -r requirements.txt
 ```
-To use a GPU with Pytorch, please refer to the official installation guide at [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/).
+If problems arise with using a GPU for Pytorch, refer to the official installation guide at [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/).
+Make sure that the CUDA drivers, Python version and Pytorch version are compatible with each other. 
 
 ### Instructions
 
