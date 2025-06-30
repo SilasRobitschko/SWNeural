@@ -92,7 +92,7 @@ if __name__ == '__main__':
     ensure_no_tf32()    
     
     project_dir = Path(__file__).resolve().parent.parent
-    run_dir = project_dir / "simdata" / "cluster_03_12_24" 
+    run_dir = project_dir / "simdata" / "selected_runs" 
     model_dir = project_dir / "models"
 
     # --- PARAMETERS: CHANGE IF YOU WANT TO ---

@@ -2,7 +2,7 @@
 
 This repository contains the code, datasets, and models accompanying the publication:
 
-**Learning the physics of liquid-liquid phase separation**
+**Learning the bulk and interfacial physics of liquid-liquid phase separation**
 > *To be published*
 
 ### Abstract
@@ -61,14 +61,16 @@ To start the training process, run:
 ```bash
 python3 train/learn.py
 ```
-**Note:** Training can be resource-intensive. For multi-process data loading, it may be necessary to increase the system's limit for open file descriptors (e.g., `ulimit -n 4096` on Linux/macOS). 
+**Note:** The data included in this repository is a small subset (200 of 2200 runs) for quick testing. The complete training dataset is available on [Zenodo](https://zenodo.org/records/15777202). To use the full dataset, download it and update the `run_dir` variable in `learn.py` to point to the new data directory.
+
+Training can be resource-intensive, especially when using the complete dataset. For multi-process data loading, it may be necessary to increase the system's limit for open file descriptors (e.g., `ulimit -n 4096` on Linux/macOS). 
 
 The network architecture can be found in `train/model.py` whereas the logic to generate the training dataset is located in `train/dataset.py`.
 
 
 ### Further Information
 
-The reference data in `simdata/cluster_03_12_24` was generated with Grand Canonical Monte Carlo simulations using the [MBD](https://gitlab.uni-bayreuth.de/bt306964/mbd) software package.
+The reference data in `simdata/selected_runs` was generated with Grand Canonical Monte Carlo simulations using the [MBD](https://gitlab.uni-bayreuth.de/bt306964/mbd) software package.
 
 The folder `train/mbd` and the script `train/runanalyzer.py` are used to process the reference data. 
 
