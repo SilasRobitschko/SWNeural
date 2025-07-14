@@ -4,9 +4,10 @@ This repository contains the code, datasets, and models accompanying the publica
 
 **Learning the bulk and interfacial physics of liquid-liquid phase separation**
 > *To be published*
+> [arXiv](https://doi.org/10.48550/arXiv.2507.08395)
 
 ### Abstract
-> We use simulation-based supervised machine learning and classical density functional theory to investigate bulk and interfacial phenomena associated with phase coexistence in binary mixtures. For a prototypical symmetrical Lennard-Jones mixture, our trained neural density functional yields accurate liquid-liquid and liquid-vapour binodals together with predictions for the variation of the associated interfacial tensions and contact angles across the entire fluid phase diagram. We investigate in detail the wetting behaviour at fluid-fluid interfaces along the line of triple-phase coexistence.
+> We use simulation-based supervised machine learning and classical density functional theory to investigate bulk and interfacial phenomena associated with phase coexistence in binary mixtures. For a prototypical symmetrical Lennard-Jones mixture our trained neural density functional yields accurate liquid-liquid and liquid-vapour binodals together with predictions for the variation of the associated interfacial tensions across the entire fluid phase diagram. From the latter we determine the contact angles at fluid-fluid interfaces along the line of triple-phase coexistence and confirm there can be no wetting transition in this symmetrical mixture.
 
 ### Introduction
 
