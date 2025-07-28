@@ -18,7 +18,7 @@ def losscustom( predictions, targets, loss_factors):
     return torch.mean(weighted_diff) 
 
 def wmae( predictions, target, loss_factors):
-    return torch.mean(torch.abs(predictions - target) * loss_factors) # genauso wie Loss, nur 
+    return torch.mean(torch.abs(predictions - target) * loss_factors) 
 
 #---- Other utilities ----- 
 def ensure_no_tf32():
