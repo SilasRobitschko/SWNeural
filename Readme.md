@@ -71,6 +71,7 @@ The network architecture can be found in `train/model.py` whereas the logic to g
 
 
 ### Further Information
+NEW: Additional  `onespecies` branch  
 
 The reference data in `simdata/selected_runs` was generated with Grand Canonical Monte Carlo simulations using the [MBD](https://gitlab.uni-bayreuth.de/bt306964/mbd) software package.
 
