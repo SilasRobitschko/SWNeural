@@ -14,6 +14,9 @@ This repository contains the code, datasets, and models accompanying the publica
 
 This codebase serves to demonstrate how a trained c1-Functional, within the framework of classical Density Functional Theory (cDFT), can be used to generate accurate density profiles for liquid-liquid and liquid-vapor transitions. \
 Methods beyond profile generation, such as functional integration to calculate the free energy and surface tension, are outside the scope of this repository.
+> **Note:** You are currently viewing the **`onespecies`** branch.  
+> This branch implements the single-species version of the neural DFT framework.  
+> It is maintained as a permanent alternative to `main` and will not be merged into it.
 
 ### Setup
 
