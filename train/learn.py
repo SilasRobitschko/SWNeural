@@ -118,28 +118,28 @@ if __name__ == '__main__':
     datadict = {}
 
     bins = 2000 #all profiles are discretized with 2000 bins
+    #NEW: replace 
     for folder in folders: 
         if (len(mbd.Simulation(str(folder)).stages[0]) ==2 and int(getattr(mbd.Simulation(str(folder))[1], 'tDiff')) > 500000):
-            rho0ges, rho1ges, c1_0ges, c1_1ges, T, Linv = rundata(folder)
+            rho0ges, c1_0ges, T, Linv = rundata(folder)
             lfactor_0ges = weight_for_loss(rho0ges)
-            lfactor_1ges = weight_for_loss(rho1ges)
+            lfactor_1ges = torch.zeros(2000)
             rho0ges = torch.from_numpy(rho0ges)
-            rho1ges = torch.from_numpy(rho1ges)
+            rho1ges = torch.zeros(2000)
             # Use periodic boundary conditions for density windows
             rho0ges =   torch.cat([rho0ges[-windows:], rho0ges, rho0ges[:windows]]) 
             rho1ges =   torch.cat([rho1ges[-windows:], rho1ges, rho1ges[:windows]])
             Linv = torch.scalar_tensor(Linv, dtype=torch.float64)
             T = torch.scalar_tensor(T, dtype=torch.float64)
             c1_0ges = torch.from_numpy(c1_0ges)
-            c1_1ges = torch.from_numpy(c1_1ges)
+            c1_1ges = torch.zeros(2000)
             lfactor_0ges = torch.from_numpy(lfactor_0ges)
-            lfactor_1ges = torch.from_numpy(lfactor_1ges)
             #save this into the datafolder
             datadict[str(folder)]= rho0ges, rho1ges, c1_0ges, c1_1ges, T, Linv, lfactor_0ges, lfactor_1ges
 
             for i in range(bins): 
                 #already discard "bad" datapoints
-                if (lfactor_0ges[i] ==0.0 and lfactor_1ges[i] == 0.0) or np.isnan(c1_0ges[i]) or np.isnan(c1_1ges[i]):
+                if (lfactor_0ges[i] ==0.0) or np.isnan(c1_0ges[i]):
                     pass
                 else:
                     folderdict[index]= [str(folder), i, 0] 

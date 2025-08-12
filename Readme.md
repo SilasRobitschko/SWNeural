@@ -7,8 +7,7 @@ This repository contains the code, datasets, and models accompanying the publica
 > 
 > [arXiv](https://doi.org/10.48550/arXiv.2507.08395)
 
-### Abstract
-> We use simulation-based supervised machine learning and classical density functional theory to investigate bulk and interfacial phenomena associated with phase coexistence in binary mixtures. For a prototypical symmetrical Lennard-Jones mixture our trained neural density functional yields accurate liquid-liquid and liquid-vapour binodals together with predictions for the variation of the associated interfacial tensions across the entire fluid phase diagram. From the latter we determine the contact angles at fluid-fluid interfaces along the line of triple-phase coexistence and confirm there can be no wetting transition in this symmetrical mixture.
+
 
 ### Introduction
 
@@ -66,7 +65,7 @@ To start the training process, run:
 ```bash
 python3 train/learn.py
 ```
-**Note:** The data included in this repository is a small subset (200 of 2200 runs) for quick testing. The complete training dataset is available on [Zenodo](https://zenodo.org/records/15777202). To use the full dataset, download it and update the `run_dir` variable in `learn.py` to point to the new data directory.
+**Note:** The data included in this repository is the full training dataset taken from Florian Sammüller's [Github](https://github.com/sfalmo/NeuralDFT). 
 
 Training can be resource-intensive, especially when using the complete dataset. For multi-process data loading, it may be necessary to increase the system's limit for open file descriptors (e.g., `ulimit -n 4096` on Linux/macOS). 
 
