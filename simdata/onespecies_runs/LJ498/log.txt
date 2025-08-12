@@ -1,0 +1,538 @@
+This is MBD
+Commit: 983c63e80c4c2ee29d107202f1f57f60e734c904 (2023-12-11 16:12:14 +0100)
+Begin of run: 2024-02-07_15-37-57
+Output path: /scratch/bt306964/fmml/data/LJ_eq_varsize/results/4690612173438492009
+Total number of stages: 2
+Max OpenMP threads: 1
+- Stage 0 -
+steps: 1000000
+time: not specified
+External interaction:
+	type: WallsHard
+	width: 1.16
+	type: PiecewiseLinear
+	pos1: 7.24
+	pos2: 8.85
+	E1: 0.9606
+	E2: -0.7252
+	type: PiecewiseLinear
+	pos1: 12.68
+	pos2: 15.11
+	E1: -1.4716
+	E2: 1.0181
+	type: PiecewiseLinear
+	pos1: 12.49
+	pos2: 14.99
+	E1: -1.3939
+	E2: -1.6022
+	type: PiecewiseLinear
+	pos1: 12.8
+	pos2: 16.85
+	E1: -2.1223
+	E2: -4.1254
+	type: Sine
+	dMod: 2
+	dForce: 2
+	k: 1
+	A: 0.2242
+	phase: 4.0811
+	type: Sine
+	dMod: 2
+	dForce: 2
+	k: 2
+	A: 1.0011
+	phase: 3.4404
+	type: Sine
+	dMod: 2
+	dForce: 2
+	k: 3
+	A: 0.1539
+	phase: 2.8679
+	type: Sine
+	dMod: 2
+	dForce: 2
+	k: 4
+	A: 0.4562
+	phase: 6.2634
+Internal interaction:
+	type: LJ
+	cutoff: 2.5
+Interaction method:
+	Newton III: true
+	cell color scheme: c08
+	cell count: 5 5 8
+	cell size: 2.99364 2.99364 2.5
+	strategy: cells
+System:
+	L: 14.9682 14.9682 20
+	T: 1.5448
+	mu: -1.7757
+Particles:
+	0 already in the system
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Added 3726 on fcc lattice
+	total: 3726 (N/V = 0.831522)
+Integrator:
+	type: Monte Carlo
+	dx: 0.1
+	globalUpdateAfterSweep: true
+	randomSeed: true
+	ensemble: Grand Canonical
+	nSweepMin: 10
+	inoutProb: 0.1
+Writing initial particle configuration... done
+Begin stage 0
+Step 70880: Writing to files... done
+Step 142144: Writing to files... done
+Step 213252: Writing to files... done
+Step 284382: Writing to files... done
+Step 355393: Writing to files... done
+Step 426597: Writing to files... done
+Step 497843: Writing to files... done
+Step 569046: Writing to files... done
+Step 640240: Writing to files... done
+Step 711560: Writing to files... done
+Step 782972: Writing to files... done
+Step 854345: Writing to files... done
+Step 925507: Writing to files... done
+Step 996766: Writing to files... done
+Finished stage 0 after 1000000 steps and 1e+06 time units (steps total: 1000000, time total: 1e+06)
+Step 1000000: Writing to files... done
+- Stage 1 -
+steps: 1000000000
+time: not specified
+External interaction:
+	type: WallsHard
+	width: 1.16
+	type: PiecewiseLinear
+	pos1: 7.24
+	pos2: 8.85
+	E1: 0.9606
+	E2: -0.7252
+	type: PiecewiseLinear
+	pos1: 12.68
+	pos2: 15.11
+	E1: -1.4716
+	E2: 1.0181
+	type: PiecewiseLinear
+	pos1: 12.49
+	pos2: 14.99
+	E1: -1.3939
+	E2: -1.6022
+	type: PiecewiseLinear
+	pos1: 12.8
+	pos2: 16.85
+	E1: -2.1223
+	E2: -4.1254
+	type: Sine
+	dMod: 2
+	dForce: 2
+	k: 1
+	A: 0.2242
+	phase: 4.0811
+	type: Sine
+	dMod: 2
+	dForce: 2
+	k: 2
+	A: 1.0011
+	phase: 3.4404
+	type: Sine
+	dMod: 2
+	dForce: 2
+	k: 3
+	A: 0.1539
+	phase: 2.8679
+	type: Sine
+	dMod: 2
+	dForce: 2
+	k: 4
+	A: 0.4562
+	phase: 6.2634
+Internal interaction:
+	type: LJ
+	cutoff: 2.5
+Interaction method:
+	Newton III: true
+	cell color scheme: c08
+	cell count: 5 5 8
+	cell size: 2.99364 2.99364 2.5
+	strategy: cells
+System:
+	L: 14.9682 14.9682 20
+	T: 1.5448
+	mu: -1.7757
+Particles:
+	2328 already in the system
+	total: 2328 (N/V = 0.519534)
+Integrator:
+	type: Monte Carlo
+	dx: 0.1
+	globalUpdateAfterSweep: true
+	randomSeed: true
+	ensemble: Grand Canonical
+	nSweepMin: 10
+	inoutProb: 0.1
+Observables:
+	onebody: 1 Eext
+Writing initial particle configuration... done
+Begin stage 1
+Step 71109: Writing to files... done
+Step 142150: Writing to files... done
+Step 213396: Writing to files... done
+Step 284477: Writing to files... done
+Step 355652: Writing to files... done
+Step 426571: Writing to files... done
+Step 497532: Writing to files... done
+Step 568819: Writing to files... done
+Step 639771: Writing to files... done
+Step 711000: Writing to files... done
+Step 782113: Writing to files... done
+Step 853127: Writing to files... done
+Step 924410: Writing to files... done
+Step 995482: Writing to files... done
+Step 1066587: Writing to files... done
+Step 1137795: Writing to files... done
+Step 1208797: Writing to files... done
+Step 1280142: Writing to files... done
+Step 1351402: Writing to files... done
+Step 1422603: Writing to files... done
+Step 1493858: Writing to files... done
+Step 1564972: Writing to files... done
+Step 1636063: Writing to files... done
+Step 1707299: Writing to files... done
+Step 1778563: Writing to files... done
+Step 1849745: Writing to files... done
+Step 1921032: Writing to files... done
+Step 1992186: Writing to files... done
+Step 2063373: Writing to files... done
+Step 2134547: Writing to files... done
+Step 2205647: Writing to files... done
+Step 2276779: Writing to files... done
+Step 2347802: Writing to files... done
+Signal 3 received. Aborting run!
+Finished stage 1 after 2410973 steps and 2.41097e+06 time units (steps total: 3410973, time total: 3.41097e+06)
+Step 2410973: Writing to files... done
+Bye!

@@ -1,0 +1,215 @@
+This is MBD
+Commit: 983c63e80c4c2ee29d107202f1f57f60e734c904 (2023-12-11 16:12:14 +0100)
+Begin of run: 2024-03-13_18-42-54
+Output path: /scratch/bt306964/fmml/data/LJ_eq_varsize3/results/1984488268117523153
+WARNING: Could not create 'latest' symlink
+Total number of stages: 2
+Max OpenMP threads: 1
+- Stage 0 -
+steps: 1000000
+time: not specified
+External interaction:
+	type: WallsHard
+	width: 0.41
+	type: PiecewiseLinear
+	pos1: 13.89
+	pos2: 15.4
+	E1: 1.7073
+	E2: 0.1863
+	type: PiecewiseLinear
+	pos1: 8.88
+	pos2: 13.41
+	E1: 3.2512
+	E2: 0.8422
+	type: PiecewiseLinear
+	pos1: 6.06
+	pos2: 10.41
+	E1: -1.3799
+	E2: -0.1293
+	type: PiecewiseLinear
+	pos1: 12.06
+	pos2: 15.98
+	E1: -0.3733
+	E2: -0.8097
+	type: Sine
+	dMod: 2
+	dForce: 2
+	k: 1
+	A: 0.4554
+	phase: 1.1972
+	type: Sine
+	dMod: 2
+	dForce: 2
+	k: 2
+	A: 0.7008
+	phase: 4.386
+	type: Sine
+	dMod: 2
+	dForce: 2
+	k: 3
+	A: 0.5617
+	phase: 3.0521
+	type: Sine
+	dMod: 2
+	dForce: 2
+	k: 4
+	A: 2.5146
+	phase: 3.9405
+Internal interaction:
+	type: LJ
+	cutoff: 2.5
+Interaction method:
+	Newton III: true
+	cell color scheme: c08
+	cell count: 5 5 8
+	cell size: 2.70486 2.70486 2.5
+	strategy: cells
+System:
+	L: 13.5243 13.5243 20
+	T: 1.8292
+	mu: -2.5108
+Particles:
+	0 already in the system
+	Added 1368 on fcc lattice
+	total: 1368 (N/V = 0.373961)
+Integrator:
+	type: Monte Carlo
+	dx: 0.1
+	globalUpdateAfterSweep: true
+	randomSeed: true
+	ensemble: Grand Canonical
+	nSweepMin: 10
+	inoutProb: 0.1
+Writing initial particle configuration... done
+Begin stage 0
+Step 215892: Writing to files... done
+Step 431784: Writing to files... done
+Step 647287: Writing to files... done
+Step 862700: Writing to files... done
+Finished stage 0 after 1000000 steps and 1e+06 time units (steps total: 1000000, time total: 1e+06)
+Step 1000000: Writing to files... done
+- Stage 1 -
+steps: 1000000000
+time: not specified
+External interaction:
+	type: WallsHard
+	width: 0.41
+	type: PiecewiseLinear
+	pos1: 13.89
+	pos2: 15.4
+	E1: 1.7073
+	E2: 0.1863
+	type: PiecewiseLinear
+	pos1: 8.88
+	pos2: 13.41
+	E1: 3.2512
+	E2: 0.8422
+	type: PiecewiseLinear
+	pos1: 6.06
+	pos2: 10.41
+	E1: -1.3799
+	E2: -0.1293
+	type: PiecewiseLinear
+	pos1: 12.06
+	pos2: 15.98
+	E1: -0.3733
+	E2: -0.8097
+	type: Sine
+	dMod: 2
+	dForce: 2
+	k: 1
+	A: 0.4554
+	phase: 1.1972
+	type: Sine
+	dMod: 2
+	dForce: 2
+	k: 2
+	A: 0.7008
+	phase: 4.386
+	type: Sine
+	dMod: 2
+	dForce: 2
+	k: 3
+	A: 0.5617
+	phase: 3.0521
+	type: Sine
+	dMod: 2
+	dForce: 2
+	k: 4
+	A: 2.5146
+	phase: 3.9405
+Internal interaction:
+	type: LJ
+	cutoff: 2.5
+Interaction method:
+	Newton III: true
+	cell color scheme: c08
+	cell count: 5 5 8
+	cell size: 2.70486 2.70486 2.5
+	strategy: cells
+System:
+	L: 13.5243 13.5243 20
+	T: 1.8292
+	mu: -2.5108
+Particles:
+	1246 already in the system
+	total: 1246 (N/V = 0.340611)
+Integrator:
+	type: Monte Carlo
+	dx: 0.1
+	globalUpdateAfterSweep: true
+	randomSeed: true
+	ensemble: Grand Canonical
+	nSweepMin: 10
+	inoutProb: 0.1
+Observables:
+	onebody: 1 Eext
+Writing initial particle configuration... done
+Begin stage 1
+Step 215924: Writing to files... done
+Step 431753: Writing to files... done
+Step 647419: Writing to files... done
+Step 862995: Writing to files... done
+Step 1078634: Writing to files... done
+Step 1294837: Writing to files... done
+Step 1510514: Writing to files... done
+Step 1726366: Writing to files... done
+Step 1941990: Writing to files... done
+Step 2157350: Writing to files... done
+Step 2373399: Writing to files... done
+Step 2589525: Writing to files... done
+Step 2805226: Writing to files... done
+Step 3020941: Writing to files... done
+Step 3237222: Writing to files... done
+Step 3452885: Writing to files... done
+Step 3668815: Writing to files... done
+Step 3884568: Writing to files... done
+Step 4100659: Writing to files... done
+Step 4316591: Writing to files... done
+Step 4532354: Writing to files... done
+Step 4747872: Writing to files... done
+Step 4963481: Writing to files... done
+Step 5179002: Writing to files... done
+Step 5395109: Writing to files... done
+Step 5610954: Writing to files... done
+Step 5826598: Writing to files... done
+Step 6042671: Writing to files... done
+Step 6258288: Writing to files... done
+Step 6473753: Writing to files... done
+Step 6689706: Writing to files... done
+Step 6905620: Writing to files... done
+Step 7122102: Writing to files... done
+Step 7337369: Writing to files... done
+Step 7553334: Writing to files... done
+Step 7768558: Writing to files... done
+Step 7984114: Writing to files... done
+Step 8199614: Writing to files... done
+Step 8415186: Writing to files... done
+Step 8630789: Writing to files... done
+Step 8846269: Writing to files... done
+Step 9062299: Writing to files... done
+Step 9278171: Writing to files... done
+Signal 3 received. Aborting run!
+Finished stage 1 after 9340879 steps and 9.34088e+06 time units (steps total: 10340879, time total: 1.03409e+07)
+Step 9340879: Writing to files... done
+Bye!

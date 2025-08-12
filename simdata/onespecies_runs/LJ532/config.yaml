@@ -1,0 +1,83 @@
+InitParticles:
+  - lattice:
+      cell: fcc
+      spacing: 1.8407
+Integrator:
+  MonteCarloGrandCanonical:
+    dx: 0.1
+Stages:
+  - steps: 1e6
+  - Observables:
+      Onebody:
+        bins:
+          - 1
+          - 1
+          - 2000
+        keys:
+          - 1
+          - Eext
+    steps: 1e9
+System:
+  L:
+    - 10.7838
+    - 10.7838
+    - 20
+  T: 1.5456
+  interaction:
+    external:
+      - WallsHard:
+          d: 2
+          width: 1.19
+      - PiecewiseLinear:
+          E1: -3.6968
+          E2: -0.933
+          d: 2
+          pos1: 8.75
+          pos2: 11.65
+      - PiecewiseLinear:
+          E1: -1.7435
+          E2: -0.4836
+          d: 2
+          pos1: 11.97
+          pos2: 16.24
+      - PiecewiseLinear:
+          E1: 1.5657
+          E2: 2.1076
+          d: 2
+          pos1: 10.7
+          pos2: 13.88
+      - PiecewiseLinear:
+          E1: -1.3724
+          E2: 4.9606
+          d: 2
+          pos1: 10.11
+          pos2: 15.06
+      - Sine:
+          A: 0.1202
+          dForce: 2
+          dMod: 2
+          k: 1
+          phase: 4.7879
+      - Sine:
+          A: 0.3905
+          dForce: 2
+          dMod: 2
+          k: 2
+          phase: 4.1956
+      - Sine:
+          A: 0.0558
+          dForce: 2
+          dMod: 2
+          k: 3
+          phase: 3.8256
+      - Sine:
+          A: 0.4431
+          dForce: 2
+          dMod: 2
+          k: 4
+          phase: 3.7101
+    internal:
+      LJ:
+        cutoff: 2.5
+        shift: false
+  mu: -6.5896

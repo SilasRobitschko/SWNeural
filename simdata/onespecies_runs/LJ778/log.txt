@@ -1,0 +1,264 @@
+This is MBD
+Commit: 983c63e80c4c2ee29d107202f1f57f60e734c904 (2023-12-11 16:12:14 +0100)
+Begin of run: 2024-03-13_18-42-57
+Output path: /scratch/bt306964/fmml/data/LJ_eq_varsize3/results/7421228431410116487
+Total number of stages: 2
+Max OpenMP threads: 1
+- Stage 0 -
+steps: 1000000
+time: not specified
+External interaction:
+	type: WallsHard
+	width: 1.31
+	type: PiecewiseLinear
+	pos1: 9.71
+	pos2: 13.85
+	E1: 0.6212
+	E2: -1.3826
+	type: PiecewiseLinear
+	pos1: 6.44
+	pos2: 9.08
+	E1: 2.1024
+	E2: 3.7808
+	type: PiecewiseLinear
+	pos1: 10.02
+	pos2: 11.14
+	E1: 0.3462
+	E2: -3.1641
+	type: PiecewiseLinear
+	pos1: 0.21
+	pos2: 1.22
+	E1: 1.7576
+	E2: 2.4325
+	type: Sine
+	dMod: 2
+	dForce: 2
+	k: 1
+	A: 0.0681
+	phase: 4.1889
+	type: Sine
+	dMod: 2
+	dForce: 2
+	k: 2
+	A: 0.3674
+	phase: 5.4973
+	type: Sine
+	dMod: 2
+	dForce: 2
+	k: 3
+	A: 0.0752
+	phase: 3.9002
+	type: Sine
+	dMod: 2
+	dForce: 2
+	k: 4
+	A: 1.901
+	phase: 2.5563
+Internal interaction:
+	type: LJ
+	cutoff: 2.5
+Interaction method:
+	Newton III: true
+	cell color scheme: c08
+	cell count: 4 4 8
+	cell size: 3.10495 3.10495 2.5
+	strategy: cells
+System:
+	L: 12.4198 12.4198 20
+	T: 1.4111
+	mu: -0.498
+Particles:
+	0 already in the system
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Added 750 on fcc lattice
+	total: 750 (N/V = 0.24311)
+Integrator:
+	type: Monte Carlo
+	dx: 0.1
+	globalUpdateAfterSweep: true
+	randomSeed: true
+	ensemble: Grand Canonical
+	nSweepMin: 10
+	inoutProb: 0.1
+Writing initial particle configuration... done
+Begin stage 0
+Step 86846: Writing to files... done
+Step 173336: Writing to files... done
+Step 259810: Writing to files... done
+Step 346343: Writing to files... done
+Step 432922: Writing to files... done
+Step 519390: Writing to files... done
+Step 605902: Writing to files... done
+Step 692788: Writing to files... done
+Step 779257: Writing to files... done
+Step 866077: Writing to files... done
+Step 952525: Writing to files... done
+Finished stage 0 after 1000000 steps and 1e+06 time units (steps total: 1000000, time total: 1e+06)
+Step 1000000: Writing to files... done
+- Stage 1 -
+steps: 1000000000
+time: not specified
+External interaction:
+	type: WallsHard
+	width: 1.31
+	type: PiecewiseLinear
+	pos1: 9.71
+	pos2: 13.85
+	E1: 0.6212
+	E2: -1.3826
+	type: PiecewiseLinear
+	pos1: 6.44
+	pos2: 9.08
+	E1: 2.1024
+	E2: 3.7808
+	type: PiecewiseLinear
+	pos1: 10.02
+	pos2: 11.14
+	E1: 0.3462
+	E2: -3.1641
+	type: PiecewiseLinear
+	pos1: 0.21
+	pos2: 1.22
+	E1: 1.7576
+	E2: 2.4325
+	type: Sine
+	dMod: 2
+	dForce: 2
+	k: 1
+	A: 0.0681
+	phase: 4.1889
+	type: Sine
+	dMod: 2
+	dForce: 2
+	k: 2
+	A: 0.3674
+	phase: 5.4973
+	type: Sine
+	dMod: 2
+	dForce: 2
+	k: 3
+	A: 0.0752
+	phase: 3.9002
+	type: Sine
+	dMod: 2
+	dForce: 2
+	k: 4
+	A: 1.901
+	phase: 2.5563
+Internal interaction:
+	type: LJ
+	cutoff: 2.5
+Interaction method:
+	Newton III: true
+	cell color scheme: c08
+	cell count: 4 4 8
+	cell size: 3.10495 3.10495 2.5
+	strategy: cells
+System:
+	L: 12.4198 12.4198 20
+	T: 1.4111
+	mu: -0.498
+Particles:
+	1756 already in the system
+	total: 1756 (N/V = 0.569201)
+Integrator:
+	type: Monte Carlo
+	dx: 0.1
+	globalUpdateAfterSweep: true
+	randomSeed: true
+	ensemble: Grand Canonical
+	nSweepMin: 10
+	inoutProb: 0.1
+Observables:
+	onebody: 1 Eext
+Writing initial particle configuration... done
+Begin stage 1
+Step 85864: Writing to files... done
+Step 172104: Writing to files... done
+Step 258232: Writing to files... done
+Step 344202: Writing to files... done
+Step 430117: Writing to files... done
+Step 516172: Writing to files... done
+Step 602181: Writing to files... done
+Step 688390: Writing to files... done
+Step 774190: Writing to files... done
+Step 860248: Writing to files... done
+Step 946229: Writing to files... done
+Step 1032233: Writing to files... done
+Step 1118338: Writing to files... done
+Step 1204400: Writing to files... done
+Step 1290380: Writing to files... done
+Step 1376398: Writing to files... done
+Step 1462464: Writing to files... done
+Step 1548450: Writing to files... done
+Step 1634577: Writing to files... done
+Step 1720868: Writing to files... done
+Step 1806934: Writing to files... done
+Step 1892719: Writing to files... done
+Step 1978747: Writing to files... done
+Step 2064869: Writing to files... done
+Step 2150779: Writing to files... done
+Step 2236910: Writing to files... done
+Step 2322875: Writing to files... done
+Step 2409086: Writing to files... done
+Step 2495152: Writing to files... done
+Step 2580876: Writing to files... done
+Step 2667030: Writing to files... done
+Step 2753120: Writing to files... done
+Step 2839086: Writing to files... done
+Step 2925082: Writing to files... done
+Step 3011076: Writing to files... done
+Step 3097100: Writing to files... done
+Signal 3 received. Aborting run!
+Finished stage 1 after 3129727 steps and 3.12973e+06 time units (steps total: 4129727, time total: 4.12973e+06)
+Step 3129727: Writing to files... done
+Bye!

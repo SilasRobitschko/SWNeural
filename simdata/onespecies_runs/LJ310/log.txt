@@ -1,0 +1,254 @@
+This is MBD
+Commit: 983c63e80c4c2ee29d107202f1f57f60e734c904 (2023-12-11 16:12:14 +0100)
+Begin of run: 2024-02-07_15-37-52
+Output path: /scratch/bt306964/fmml/data/LJ_eq_varsize/results/2846831932771263305
+Total number of stages: 2
+Max OpenMP threads: 1
+- Stage 0 -
+steps: 1000000
+time: not specified
+External interaction:
+	type: WallsHard
+	width: 1.28
+	type: PiecewiseLinear
+	pos1: 12.87
+	pos2: 15.68
+	E1: 1.17
+	E2: -5.3739
+	type: PiecewiseLinear
+	pos1: 12.45
+	pos2: 14.8
+	E1: -0.9864
+	E2: 2.1239
+	type: PiecewiseLinear
+	pos1: 1.96
+	pos2: 5.63
+	E1: -1.1626
+	E2: -1.2375
+	type: PiecewiseLinear
+	pos1: 10.78
+	pos2: 15.44
+	E1: 3.0906
+	E2: -0.3833
+	type: Sine
+	dMod: 2
+	dForce: 2
+	k: 1
+	A: 0.9858
+	phase: 3.3342
+	type: Sine
+	dMod: 2
+	dForce: 2
+	k: 2
+	A: 0.2516
+	phase: 6.167
+	type: Sine
+	dMod: 2
+	dForce: 2
+	k: 3
+	A: 2.3464
+	phase: 2.6934
+	type: Sine
+	dMod: 2
+	dForce: 2
+	k: 4
+	A: 1.0543
+	phase: 2.8573
+Internal interaction:
+	type: LJ
+	cutoff: 2.5
+Interaction method:
+	Newton III: true
+	cell color scheme: c08
+	cell count: 4 4 8
+	cell size: 2.85655 2.85655 2.5
+	strategy: cells
+System:
+	L: 11.4262 11.4262 20
+	T: 1.5024
+	mu: -2.3912
+Particles:
+	0 already in the system
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Particle insertion skipped due to energy threshold (E=inf >= threshold=10000)
+	Added 608 on fcc lattice
+	total: 608 (N/V = 0.232847)
+Integrator:
+	type: Monte Carlo
+	dx: 0.1
+	globalUpdateAfterSweep: true
+	randomSeed: true
+	ensemble: Grand Canonical
+	nSweepMin: 10
+	inoutProb: 0.1
+Writing initial particle configuration... done
+Begin stage 0
+Step 230939: Writing to files... done
+Step 462113: Writing to files... done
+Step 693045: Writing to files... done
+Step 924410: Writing to files... done
+Finished stage 0 after 1000000 steps and 1e+06 time units (steps total: 1000000, time total: 1e+06)
+Step 1000000: Writing to files... done
+- Stage 1 -
+steps: 1000000000
+time: not specified
+External interaction:
+	type: WallsHard
+	width: 1.28
+	type: PiecewiseLinear
+	pos1: 12.87
+	pos2: 15.68
+	E1: 1.17
+	E2: -5.3739
+	type: PiecewiseLinear
+	pos1: 12.45
+	pos2: 14.8
+	E1: -0.9864
+	E2: 2.1239
+	type: PiecewiseLinear
+	pos1: 1.96
+	pos2: 5.63
+	E1: -1.1626
+	E2: -1.2375
+	type: PiecewiseLinear
+	pos1: 10.78
+	pos2: 15.44
+	E1: 3.0906
+	E2: -0.3833
+	type: Sine
+	dMod: 2
+	dForce: 2
+	k: 1
+	A: 0.9858
+	phase: 3.3342
+	type: Sine
+	dMod: 2
+	dForce: 2
+	k: 2
+	A: 0.2516
+	phase: 6.167
+	type: Sine
+	dMod: 2
+	dForce: 2
+	k: 3
+	A: 2.3464
+	phase: 2.6934
+	type: Sine
+	dMod: 2
+	dForce: 2
+	k: 4
+	A: 1.0543
+	phase: 2.8573
+Internal interaction:
+	type: LJ
+	cutoff: 2.5
+Interaction method:
+	Newton III: true
+	cell color scheme: c08
+	cell count: 4 4 8
+	cell size: 2.85655 2.85655 2.5
+	strategy: cells
+System:
+	L: 11.4262 11.4262 20
+	T: 1.5024
+	mu: -2.3912
+Particles:
+	955 already in the system
+	total: 955 (N/V = 0.365738)
+Integrator:
+	type: Monte Carlo
+	dx: 0.1
+	globalUpdateAfterSweep: true
+	randomSeed: true
+	ensemble: Grand Canonical
+	nSweepMin: 10
+	inoutProb: 0.1
+Observables:
+	onebody: 1 Eext
+Writing initial particle configuration... done
+Begin stage 1
+Step 230452: Writing to files... done
+Step 461155: Writing to files... done
+Step 691974: Writing to files... done
+Step 922608: Writing to files... done
+Step 1153112: Writing to files... done
+Step 1383909: Writing to files... done
+Step 1615176: Writing to files... done
+Step 1846591: Writing to files... done
+Step 2077382: Writing to files... done
+Step 2308177: Writing to files... done
+Step 2539390: Writing to files... done
+Step 2770013: Writing to files... done
+Step 3001265: Writing to files... done
+Step 3232166: Writing to files... done
+Step 3463376: Writing to files... done
+Step 3693910: Writing to files... done
+Step 3924795: Writing to files... done
+Step 4155745: Writing to files... done
+Step 4386607: Writing to files... done
+Step 4617682: Writing to files... done
+Step 4848673: Writing to files... done
+Step 5080233: Writing to files... done
+Step 5311393: Writing to files... done
+Step 5542724: Writing to files... done
+Step 5773229: Writing to files... done
+Step 6003835: Writing to files... done
+Step 6234668: Writing to files... done
+Step 6464958: Writing to files... done
+Step 6695965: Writing to files... done
+Step 6927482: Writing to files... done
+Step 7158435: Writing to files... done
+Step 7389336: Writing to files... done
+Step 7620481: Writing to files... done
+Step 7851395: Writing to files... done
+Step 8082561: Writing to files... done
+Step 8313710: Writing to files... done
+Step 8544953: Writing to files... done
+Step 8775952: Writing to files... done
+Step 9006821: Writing to files... done
+Step 9237988: Writing to files... done
+Step 9468974: Writing to files... done
+Step 9700080: Writing to files... done
+Step 9931354: Writing to files... done
+Signal 3 received. Aborting run!
+Finished stage 1 after 10072526 steps and 1.00725e+07 time units (steps total: 11072526, time total: 1.10725e+07)
+Step 10072526: Writing to files... done
+Bye!
