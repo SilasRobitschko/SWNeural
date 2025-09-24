@@ -74,7 +74,15 @@ The network architecture can be found in `train/model.py` whereas the logic to g
 
 
 ### Further Information
-NEW: Added a new refined model  `refined_model_with_L2.pth`. Additional Info can be found on the [Zenodo](https://zenodo.org/records/15777202). To use the Net, change ```from model import NetC1``` to ```from model_refined import NetC1``` in `scripts/generate_profiles.py`. 
+NEW: Added a new refined model  `refined_model_with_L2.pth`. Additional Info can be found on the [Zenodo](https://zenodo.org/records/15777202). 
+To use the Net, change  in `scripts/generate_profiles.py` the following: 
+```bash 
+from model import NetC1
+```
+to 
+```bash 
+from model_refined import NetC1
+```
 
 NEW: Additional  `onespecies` branch  for single-species Neural DFT 
 
