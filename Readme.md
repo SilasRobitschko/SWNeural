@@ -75,7 +75,7 @@ The network architecture can be found in `train/model.py` whereas the logic to g
 
 ### Further Information
 NEW: Added a new refined model  `refined_model_with_L2.pth`. Additional Info can be found on the [Zenodo](https://zenodo.org/records/15777202). 
-To use the Net, change  in `scripts/generate_profiles.py` the following: 
+To use the Net, change  in `scripts/generate_profiles.py` the following line: 
 ```bash 
 from model import NetC1
 ```
